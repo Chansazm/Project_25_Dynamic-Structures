@@ -1,6 +1,9 @@
+#importing tools
 import enum
 
+#Declare three classes 
 class Gas_choices(enum.Enum):
+    #Update type of gasoline
    Regular = 1
    Unleaded = 2
    Super_Unleaded = 3
@@ -28,7 +31,7 @@ class Car_Wash:
         return Car_wash_Fees
 
 class Customer:
-    def Customer_Statement(self,CustomerID, Date, Time, Costs,Car_Washed = False):
+    def Customer_Statement(self,CustomerID , Date, Time, Costs,Car_Washed = False):
         Costs = 0
         if Car_Washed == True:
             return Car_Wash

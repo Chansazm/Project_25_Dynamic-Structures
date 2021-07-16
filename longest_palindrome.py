@@ -17,9 +17,3 @@ class solution:
             l -= 1
             r += 1
         return s[l+1:r]
-                 
-        
-        
-s = "babad"
-r = len(s)-1
-print(solution.helperpalindrome(s,0,r)
